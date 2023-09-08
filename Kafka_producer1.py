@@ -1,11 +1,10 @@
+#setup your laptop as a kafka server
+#https://www.geeksforgeeks.org/how-to-install-and-run-apache-kafka-on-windows/
+
 #KAFKA opstart
-
 # ga naar command propmt en in de kafka directoty start zookeeper via 
-
 #.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
-
 # open een andere command prompt en in de kafka directoy start de kafka server via:
-
 #.\bin\windows\kafka-server-start.bat .\config\server.properties
 
 from kafka import KafkaProducer
